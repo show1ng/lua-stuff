@@ -1,8 +1,8 @@
-wait(1.2)
+wait(1.2) --noti thing was def not skidded lol
 game.StarterGui:SetCore("SendNotification", {
-Title = "Script Loaded!"; -- the title (ofc)
-Text = "Made by show1ng#0001"; -- what the text says (ofc)
-Duration = 1000; -- how long the notification should in secounds
+Title = "Script Loaded!"; 
+Text = "Made by show1ng#0001";
+Duration = 1000;
 })
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(840, 3, -380)
