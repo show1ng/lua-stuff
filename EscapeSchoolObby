@@ -4,6 +4,13 @@ Title = "Script Loaded!";
 Text = "Made by show1ng#0001";
 Duration = 1000;
 })
+--noti thing was def not skidded lol
+game.StarterGui:SetCore("SendNotification", {
+Title = "Discord Invite Copied!"; 
+Text = "https://discord.gg/k6SdDn6nND";
+Duration = 1000;
+})
+setclipboard("https://discord.gg/k6SdDn6nND")
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(840, 3, -380)
 wait(1)
